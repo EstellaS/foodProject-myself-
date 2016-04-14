@@ -12,7 +12,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <base href="<%=basePath%>">
     <!-- 路径都是从网站的根目录寻找的 -->
     
-    <title>My JSP 'index.jsp' starting page</title>
+    <title>hello Food Project</title>
     <meta charset="UTF-8">
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,6 +23,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  <h4>HELLO!!!</h4>
   <s:form action = "food/food_addFood"><!-- 命名空间/foodaction_addFood操作 -->
   <s:textfield name = "food.foodname" label = "食品名称"></s:textfield>
   <s:textfield name = "food.unitprice" label = "单价"></s:textfield>
